@@ -478,7 +478,7 @@ def handle_like(message):
         return
 
     sent_msg = bot.reply_to(message, "⏳ Processing your request...", parse_mode='HTML')
-    api_url = f"https://api-bot-nwz7.onrender.com/like?uid={uid}&region={region}&key=Anurag"
+    api_url = f"https://api-bot-p5wz.onrender.com/like?uid={uid}&region={region}&key=Anurag"
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(api_url, headers=headers)
